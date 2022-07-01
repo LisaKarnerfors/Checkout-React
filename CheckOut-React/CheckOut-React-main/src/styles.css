@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+
+}
+
+/* .footer {
+    border-top: 1px solid #D0D0D0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100vh:
+} */
+
+@media screen and (max-width: 1145px) {
+
+    .navLink {
+        margin: 70px !important;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .cheackout-box {
+        padding-left: 40px !important;
+    }
+} 
+
+@media screen and (max-width: 850px) {
+
+    .product-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img {
+        width: 250px !important;
+        height: 350px !important;
+    }
+
+    .imgflex {
+        margin-left: 70px !important
+    }
+
+    .text-box {
+        margin-right: 0px !important;
+    }
+
+    .text {
+        padding-right: 50px !important;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .visibility {
+        display: none   
+    }
+
+    .cheackout-img img {
+        max-width: "100px";
+        width: 80px !important;
+        height: 130px !important;
+        object-fit: cover !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .img {
+        width: 250px !important;
+        height: 350px !important;
+    }
+
+    .imgflex {
+        display: flex;
+        justify-content: center;
+        margin-left: 20px !important
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+
+    .nav {
+        display: none
+    } 
+    
+    .navLink {
+        margin: 20px !important;
+    }
+
+    .heading {
+        width: 100%;
+        margin-left: 40px !important;
+    }
+
+    .container-box {
+        margin-left: 40px !important;
+        margin-right: 0px !important;
+    }
+
+    .product-box {
+        display: flex;
+        flex-direction: column !important; 
+        justify-content: center;
+    }
+
+    .text-box {
+        margin-left: 50px;
+    }
+
+    .text-div {
+        padding-left: 30px !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+    .cheackout-box {
+        padding-left: 30px !important;
+
+    }
+
+    .container-box {
+        margin-left: 20px !important;
+    }
+
+    .heading {
+        margin-left: 20px !important;
+
+    }
+
+}
